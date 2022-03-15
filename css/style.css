@@ -1,67 +1,55 @@
+body{
+    padding-top: 80px;
+}
+
 header{
-	background: green; 
+	background: #e3eaa7; 
 	padding-bottom: 20px;
     padding-top: 20px;
 	width: 100%;
     position: fixed;
+    top: 0;
 }
-
 .social img{
-	width: 40%;
+	width: 20px;
+    display: inline-block;
+	margin-left: 20px;
 }
 
-
+/*hasta aca el header*/
+div#background img{
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+}
 /*primer contenedor*/
 .card-andy{
     border-radius: 32px;
+    margin-top: 20px;
     margin:10px 10px;
-    padding: 20px;
-    border-color: green;
+    border-color: #d5e1df;
     border-style: solid;
+    padding: 20px;
 }
-
-/*imagen de arriba*/
- div#background {
-     display: flex;
-     z-index: 1;
- }
-
- div#background img{
-     width: 100%;
-     border-radius: 32px 32px 0 0;
- }
 
 /*imagen de perfil*/
-
 div#imgRedonda img {
-    width:300px;
-    height:300px;
-    border-radius:150px;
-    margin-top: -150px;
+    width:auto;
+    height:auto;
+    margin-top: -30%;
 }
-
 div#logoClick img{
     width: 70px;
     height:70px;
     float: right;
 }
 
-.botonera li{
-	display: inline-block;
+.botonera{
+    padding-top: 10px;
 }
 
-button{
-    padding: 6px;
-    border-radius: 7px;
-    font-size: 18px;
-}
-
-
-.fila-md img {
-    width: 70px;
-    height:70px;
-    float: left;
-    margin-right: 10px;
+.jobs img {
+    width: 80px;
+    height:80px;
 }
 
 .btn-edit2{
@@ -77,6 +65,7 @@ h1{
 }
 
 
+   
 
 
 
