@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+    <!--etiuetas meta... es meta info, predefine algun comportamiento-->
+    <!-- link me hace ref a las hojas de estilo ue puedo usar, las puedo traer de boostrap-->
+    <meta charset="UTF-8">
+    <title> Portfolio Andrea Oporto </title>
+    <!-- con la etiueta content al nombre viewport le indico ue ocupe todo el ancho y alto del disp, escalable-->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container ">
+            <div class="row social">
+                <div class="col-9"></div>
+                <div class="col">
+                    <a target="_blank" href="mailto:andreafabianaoporto@gmail.com"><img src="images/001-mail.svg"
+                            alt=""></a>
+                </div>
+                <!--target="_blank" sirve para que la pagina se abra en otra pestaña-->
+                <div class="col">
+                    <a target="_blank" href="https://www.linkedin.com/in/andreaoporto/" target="_blank"><img
+                            src="images/likedin.jpg" alt=""></a>
+                </div>
+                <div class="col">
+                    <a target="_blank" href="https://www.instagram.com/andioporto/"><img
+                            src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- <body> Todo lo que se ve en la pantalla del usuario -->
+    <div class="card-andy" id="first-card">
+        <!--div con la imagen de fondo-->
+
+        <div id="background"><img src="images/background.jpg">
+        </div>
+        <!--este div define un estilo de manera interna con padding de 16-->
+        <div id="info" style="padding:16px">
+
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-3">
+                        <div id="imgRedonda">
+                            <img src="images/andypic.png">
+                        </div>
+                    </div>
+                </div>
+                <!--lo de abajo es un boton-->
+
+                <div class="col-2">
+                    <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                </div>
+            </div>
+
+
+            <!-- desde aca el texto debajo de la foto de perfil-->
+
+            
+                <div class="row justify-content-between">
+                    <div class="col-md-4">
+
+                        <div id="info-name">
+                            <h1>Andrea Oporto</h1>
+                        </div>
+
+                        <div id="info-company">Estudiante de Farmacia-UBA</div>
+                        <div id="info-sensible"> Buenos Aires (Argentina) <a href="#">Informacion de contacto</a></div>
+                    </div>
+
+                    <div class="col-4">
+                        <div id="logoClick">
+                            <a target="_blank" href="http://www.ffyb.uba.ar/"><img src="images/logo-ffyb.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row botonera">
+                    <div class="info-actions">
+                        <ul class='botonera'>
+                            <li><button type="submit">Tengo interes en</button></li>
+                            <li><button type="submit">Añadir seccion</button></li>
+                            <li><button type="submit">Mas</button></li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+        <!-- tarjeta 2, acerca de mi-->
+
+        <div class="card-andy">
+            <div id="info" style="padding:16px">
+                <div class="AcercaDe">
+                    <h2>Acerca De</h2>
+
+                    <div class="btn-edit2">
+                        <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                    </div>
+                </div>
+
+                <div id="descripcion">Soy estudiante de Farmacia en la Universidad de Buenos Aires
+                    <br>Fui ayudante en la cátedra de Microbiología - UBA y pasante de laboratorio en ININFA
+                    <br>Actualmente me desempeño como preparador en farmacia hospitalaria.
+                    <br>Estoy decidida a seguir ampliando mis conocimientos y poder crecer tanto a nivel profesional
+                    como a
+                    nivel personal.</br>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- tarjeta 3-->
+
+        <div class="card-andy" id="Experiencia">
+            <div id="info" style="padding:16px">
+                <h1>Experiencia</h1>
+
+                <div class="jobs">
+
+                    <div class="fila-md">
+                        <img src="images/HOSPITAL-ITALIANO-LOGO-1.png" alt="logo">
+                        <h3>Preparador de Farmacia de Internacion </h3>
+                        <h4>Hospital Italiano de Buenos Aires</h4>
+                        <p>Mar. 2021 - actualidad
+                            <br>Buenos Aires, Argentina</br>
+                        </p>
+                    </div>
+
+                    <div class="fila-md">
+                        <img src="images/logo-iadt.png" alt="">
+                        <h3>Preparador de Farmacia de Internacion </h3>
+                        <h4>Instituto de diagnostico y tratamiento</h4>
+                        <p>Dic. 2020 - Mar. 2021 · 4 meses
+                            <br>Buenos Aires, Argentina</br>
+                        </p>
+                    </div>
+
+                    <div class="fila-md">
+                        <img src="images/rp-farma-logo.jpg" alt="">
+                        <h3>Empleada de mostrador</h3>
+                        <h4>Farmacia Rp</h4>
+                        <p>Dic. 2020 - Mar. 2021 · 4 meses
+                            <br>Buenos Aires, Argentina</br>
+                        </p>
+
+                    </div>
+                    <div class="fila-md">
+                        <img src="images/ininfa.png" alt="">
+                        <h3>Pasante</h3>
+                        <h4>ININFA · Jornada parcial</h4>
+                        <p>nov. 2016 - abr. 2017 · 6 meses
+                            <br>Buenos Aires, Argentina</br>
+                        </p>
+
+                    </div>
+                </div>
+
+                <h1>Experiencia</h1>
+
+                <div class="Education">
+
+                    <div class="fila-md">
+                        <img src="images/logo-ffyb.png" alt="logo">
+                        <h3>Facultad de Farmacia y Bioquimica - UBA </h3>
+                        <h4>Grado en Farmacia</h4>
+                        <p>2015 - actualidad
+                            <br>Buenos Aires, Argentina</br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- tarjeta 4-->
+
+        <div class="card-andy">
+            <div id="info" style="padding:16px">
+                <h1>Hard Skils & Soft Skills</h1>
+            </div>
+        </div>
+        <!--tarjeta 5-->
+
+        <div class="card-andy">
+            <div id="info" style="padding:16px">
+                <h1>Otras habilidades</h1>
+
+            </div>
+        </div>
+
+        <script>
+            src = "https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity = "sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin = "anonymous" ></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+            integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+            crossorigin="anonymous"></script>
+        <script>
+                // A $( document ).ready() block.
+                $(document).ready(function () {
+                    $('.top a').click(function (e) {
+                        e.preventDefault();
+                        var offset = $($(this).attr('href')).offset().top;
+                        $('html, body').animate({ scrollTop: offset }, 600);
+                        return false;
+                    });
+
+                });
+
+        </script>
+
+</body>
+
+</html>
