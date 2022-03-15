@@ -1,0 +1,85 @@
+header{
+	background: green; 
+	padding-bottom: 20px;
+    padding-top: 20px;
+	width: 100%;
+    position: fixed;
+}
+
+.social img{
+	width: 40%;
+}
+
+
+/*primer contenedor*/
+.card-andy{
+    border-radius: 32px;
+    margin:10px 10px;
+    padding: 20px;
+    border-color: green;
+    border-style: solid;
+}
+
+/*imagen de arriba*/
+ div#background {
+     display: flex;
+     z-index: 1;
+ }
+
+ div#background img{
+     width: 100%;
+     border-radius: 32px 32px 0 0;
+ }
+
+/*imagen de perfil*/
+
+div#imgRedonda img {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    margin-top: -150px;
+}
+
+div#logoClick img{
+    width: 70px;
+    height:70px;
+    float: right;
+}
+
+.botonera li{
+	display: inline-block;
+}
+
+button{
+    padding: 6px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+
+.fila-md img {
+    width: 70px;
+    height:70px;
+    float: left;
+    margin-right: 10px;
+}
+
+.btn-edit2{
+    float: right;
+}
+p{
+    color: gray;
+    font-size: 11sp;
+}
+
+h1{
+    padding: -2px;
+}
+
+
+
+
+
+
+/*uso el punto para referir todas las clases, uso el # para los id*/
+
